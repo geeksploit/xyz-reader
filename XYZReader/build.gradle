@@ -39,4 +39,7 @@ dependencies {
     implementation "com.android.support:cardview-v7:$androidSupportVersion"
     implementation 'com.squareup.okhttp3:okhttp:3.1.2'
     implementation files('libs/volley.jar')
+
+    // Use the Design Support library
+    implementation "com.android.support:design:$androidSupportVersion"
 }
