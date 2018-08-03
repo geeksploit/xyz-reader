@@ -18,7 +18,37 @@
 <resources>
 
     <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/theme_primary</item>
+        <item name="colorPrimaryDark">@color/theme_primary_dark</item>
+        <item name="colorAccent">@color/theme_accent</item>
 
+        <item name="android:textColorPrimary">@color/primary_text</item>
+        <item name="android:textColorSecondary">@color/secondary_text</item>
+
+        <item name="android:textAppearanceLarge">@style/TextAppearance.Bacon.Large</item>
+        <item name="android:textAppearanceMedium">@style/TextAppearance.Bacon.Medium</item>
+        <item name="android:textAppearanceSmall">@style/TextAppearance.Bacon.Small</item>
+    </style>
+
+    <style name="TextAppearance.Bacon.Body1" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textColor">@color/secondary_text</item>
+    </style>
+
+    <style name="TextAppearance.Bacon.Large" parent="@style/TextAppearance.AppCompat.Large">
+        <item name="android:textColor">@color/icons</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/detail_title_text_size</item>
+    </style>
+
+    <style name="TextAppearance.Bacon.Medium" parent="@style/TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:textColorLink">@color/theme_accent</item>
+        <item name="android:textSize">@dimen/detail_body_text_size</item>
+    </style>
+
+    <style name="TextAppearance.Bacon.Small" parent="@style/TextAppearance.AppCompat.Small">
+        <item name="android:textColor">@color/secondary_text</item>
     </style>
 
     <style name="Theme.Bacon.Detail">
