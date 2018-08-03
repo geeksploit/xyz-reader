@@ -36,10 +36,15 @@
 
     <style name="TextAppearance.Bacon.Large" parent="@style/TextAppearance.AppCompat.Large">
         <item name="android:textColor">@color/icons</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/detail_title_text_size</item>
     </style>
 
     <style name="TextAppearance.Bacon.Medium" parent="@style/TextAppearance.AppCompat.Medium">
         <item name="android:textColor">@color/primary_text</item>
+        <item name="android:textColorLink">@color/theme_accent</item>
+        <item name="android:textSize">@dimen/detail_body_text_size</item>
     </style>
 
     <style name="TextAppearance.Bacon.Small" parent="@style/TextAppearance.AppCompat.Small">
